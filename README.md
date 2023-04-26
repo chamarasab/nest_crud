@@ -58,3 +58,6 @@ you need to get the job done.
 > ng generate service users/users --skip-tests
 
 > npm install @nestjs/common
+
+### Screenshots
+<img src="https://github.com/chamarasab/nest_crud/blob/master/screenshots/img2.PNG" alt="retrieve.png">
