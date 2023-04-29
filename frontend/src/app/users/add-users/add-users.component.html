@@ -1,0 +1,20 @@
+<div class="container mt-2 mb-2">
+  <legend></legend>
+  <form>
+    <div class="mb-3">
+      <label for="txtName" class="form-label">Name</label>
+      <input type="text" class="form-control" id="txtName" name="name" [(ngModel)]="users.name" required>
+    </div>
+    <div class="mb-3">
+      <label for="txtContact" class="form-label">Contact</label>
+      <input type="text" class="form-control" id="txtContact" aria-describedby="phone" name="contact"
+             [(ngModel)]="users.contact" required>
+    </div>
+    <div class="mb-3">
+      <label for="txtImage" class="form-label">Image</label>
+      <textarea class="form-control" id="txtImage" rows="3" name="image" [(ngModel)]="users.image" required></textarea>
+    </div>
+    <button type="button" class="btn btn-primary" (click)="create()">Submit</button>
+  </form>
+
+</div>
