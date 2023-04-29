@@ -61,3 +61,4 @@ you need to get the job done.
 
 ### Screenshots
 <img src="https://github.com/chamarasab/nest_crud/blob/master/screenshots/img3.gif" alt="insert.gif"/>
+<a href="https://github.com/chamarasab/nest_crud/blob/master/screenshots/crud.pdf" class="btn btn-primary">Read More</a>
