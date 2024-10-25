@@ -7,7 +7,7 @@ import { UsersModule } from './users/users.module';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://chamaraorbit:AEzakmi6526560@crud.yrmq2zr.mongodb.net/crud_db?retryWrites=true&w=majority',
+      'mongodb+srv://<username>:<password>.<>.mongodb.net/crud_db?retryWrites=true&w=majority',
     ),
     UsersModule,
   ],
